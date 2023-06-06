@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.application {
+    margin: 30px auto;
+    width: 900px;
+    border: 1px solid #ccc;
+    background-color: #f2f3f5;
+    padding: 40px;
+    opacity: 0.8;
+}
+
+.application-name {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.application-form {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px 0px #cccc;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.application-form p {
+    margin-bottom: 20px;
+}
+
+.application-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 45px;
+}
+
+
+
+.icon {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 3px;
+    color: #fff;
+    background-color: green;
+    cursor: pointer;
+    position: relative;
+    top: -38px;
+    left: 740px;
+}
+
+
+.application-form .btn {
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3 all;
+    margin-top: -20px;
+}
+
+.application-form .btn:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.restaurant {
+    margin: 30px auto;
+    width: 900px;
+    text-align: center;
+    background-color: #f2f3f5;
+    padding: 40px 10px 20px
+
+}
+
+.restaurant-name {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.restaurant-photo .img {
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.restaurant-info {
+    color: #828080;
+}
+
+.restaurant-info strong {
+    color: #ff0000;
+    
+}
+
